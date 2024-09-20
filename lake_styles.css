@@ -1,0 +1,96 @@
+﻿@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: 
+   Date:   
+   
+   Filename: lake_styles.css
+
+*/
+
+@font-face {
+   font-family: 'CustomFont1';
+   src: url('cac_champagne.tff') format('truetype');
+}
+.custom-font1 {
+   font-family: 'CustomFont1', sans-serif;
+}
+
+@font-face {
+   font-family: 'CustomFont2';
+   src: url('cac_champagne.woff') format('woff');
+}
+.custom-font2 {
+   font-family: 'CustomFont2', sans-serif;
+}
+
+@font-face {
+   font-family: 'CustomFont3';
+   src: url('DobkinPlain.ttf') format('truetype');
+}
+.custom-font3 {
+   font-family: 'CustomFont3', sans-serif;
+}
+
+@font-face {
+   font-family: 'CustomFont4';
+   src: url('DobkinPlain.woff') format('woff');
+}
+.custom-font4 {
+   font-family: 'CustomFont4', sans-serif;
+}
+
+#leftcol {
+   color: rgb(255, 255, 255);
+   background-color: black;
+}
+#leftcol h1.custom-font2{
+   font-size: 3.5em;
+   margin-top: 10px; /* 上外边距，调整为所需值 */
+   margin-bottom: 10px; /* 下外边距，调整为所需值 */
+}
+aside.notes{
+   background-color: rgb(208, 143, 108);
+}
+aside.events{
+   background-color: rgb(211, 184, 49);
+}
+
+aside h1{
+   text-align: center; /* 水平居中对齐 */
+}
+aside a{
+   color: #dc65c6;
+}
+
+header a{
+   color: rgba(255, 255, 255, 0.5); /* 文字颜色为白色半透明 */
+   text-decoration: none; /* 去掉下划线 */
+
+}
+
+#rightcol{
+   background-color: rgb(110, 34, 181);
+}
+#rightcol h2{
+   color: rgba(255, 255, 255,0.7); /* 文字颜色为白色半透明 */
+}
+#rightcol a{
+   color: rgba(255, 255, 255, 0.3); /* 文字颜色为白色半透明 */
+   text-decoration: none; /* 去掉下划线 */
+}
+#rightcol ul{
+   list-style-type: none; /* 去掉黑点 */
+}
+
+blockquote{
+   color:rgb(174, 39, 198)
+}
+
+footer{
+   background-color: rgb(113, 113, 113);
+}
